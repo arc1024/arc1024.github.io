@@ -9,7 +9,9 @@ description = "本文记录了hugo + github pages搭建静态博客的步骤。"
 ## Hugo + GITHUB PAGES
 
 Hugo: Hugo是一个用 Go 语言编写的静态网站生成器。它将MARKDOWN文件渲染成网页。
+
 GITHUB PAGES: github 提供的静态网站托管服务。
+
 使用这两个工具，我们只需要这几点即可将博客对外托管。
 
 1. 熟悉markdown
@@ -22,7 +24,9 @@ GITHUB PAGES: github 提供的静态网站托管服务。
 2. chatgpt: 用于生成文案样板
 
 当然，对于写博客来说，最重要的写，也就是我们写的markdown文档。
+
 其他种种工具，只是为了让世界看见而已。
+
 本文只会阐述怎么搭建静态博客，工具的使用不会提及太多。
 
 ## 搭建静态博客
@@ -35,7 +39,9 @@ GITHUB PAGES: github 提供的静态网站托管服务。
 `步骤二`：创建github仓库
 
 正如 [关于github-pages](https://docs.github.com/zh/pages/getting-started-with-github-pages/about-github-pages) 中提到，用户站点必须以 `<username>.github.io` 为仓库名。
+
 从浏览器的url上可以看到自己的用户名。
+
 比如这个链接 `https://github.com/arc1024` 的用户名则是 `arc1024`，创建的仓库名应该是 `arc1024.github.io`。
 
 `步骤三`：初始化网站
