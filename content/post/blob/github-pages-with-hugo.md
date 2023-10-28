@@ -4,9 +4,9 @@ date = 2023-10-28T14:36:53+08:00
 description = "本文记录了hugo + github pages搭建静态博客的步骤。"
 +++
 
-#搭建个人静态博客网站
+# 搭建个人静态博客网站
 
-##Hugo + GITHUB PAGES
+## Hugo + GITHUB PAGES
 
 Hugo: Hugo是一个用 Go 语言编写的静态网站生成器。它将MARKDOWN文件渲染成网页。
 GITHUB PAGES: github 提供的静态网站托管服务。
