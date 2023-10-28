@@ -1,3 +1,20 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://arc1024.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Arc1024'
+theme = 'hugo-theme-cleanwhite'
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[params]
+  SEOTitle = "郑元湖的博客 | Zhengyuanhu Blog"
+  description = "郑元湖, 后端程序员 | 这里是 郑元湖 的博客。"
+  keyword = "郑元湖, Zhengyuanhu , 郑元湖的博客, Zhengyuanhu Blog, 博客, 个人网站, 互联网, Web, 云原生, IaaS, Kubernetes, 微服务, Microservice"
+  slogan = "既来之，则安之。"
+
+  [params.social]
+  github = "https://github.com/arc1024"
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/about/"
